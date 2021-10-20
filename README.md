@@ -70,6 +70,3 @@ message will show if the selected room is out of stock.</li>
 <li>Rating on a scale of: from 0 to 10.</li>
 </ul>
 </li>
-* The above specifications are only basic information; you must build the application according to real requirements.
-* You have to build your own database.
-* The lecturer will explain the requirement only once on the first slot of the assignment.
