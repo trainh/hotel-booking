@@ -1,0 +1,19 @@
+.article #hearder h2, h4 {
+    float: left;
+}
+
+.article #hearder h2 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.article #hearder h4 {
+    margin: 0 12px 12px 0;
+    width: 100%;
+    text-align: right;
+}
+
+.comment {
+    border: solid 1px black;
+}

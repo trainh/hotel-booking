@@ -1,0 +1,19 @@
+body {
+    margin: 5px;
+}
+.section {
+    width: 84%;
+    position: absolute;
+    float: left;
+    right: 0;
+}
+.nav {
+    position: inherit;
+    width: 16%;
+    float: left;
+}
+
+.room-detail {
+    float: left;
+    width: 33.33%;
+}

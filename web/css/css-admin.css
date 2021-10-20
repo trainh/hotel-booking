@@ -1,0 +1,58 @@
+.form-search {
+    position: inherit;
+    height: 120px;
+}
+
+.page {
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    font-size: 20px;
+}
+
+.page a {
+    text-decoration: none; 
+    border: solid black 1px;
+}
+
+.article {
+    border: solid black 1px;
+    background-color: pink;
+}
+
+.hearderarticle {
+    width: 100%;
+}
+
+.hearderarticle #author {
+    /*    position: absolute;*/
+    text-align: center;
+    float: right;
+    width: 50%;
+}
+
+.hearderarticle #tital {
+    /*    position: relative;*/
+    float: left;
+    width: 50%;
+
+}
+
+.article #dateCreate {
+    text-align: right;
+    margin: 0 16px 0 16px;
+}
+
+.search {
+    float: left;
+}
+
+.search-status {
+    float: left;
+    margin-left: 20px;
+}
+
+.status-search {
+    float: left;
+    margin-left: 10px;
+}
