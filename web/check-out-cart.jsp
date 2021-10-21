@@ -36,7 +36,7 @@
                 <h4>Price: <fmt:formatNumber type="number" value="${room.price}"></fmt:formatNumber>vnđ</h4>
                 <h4>Rental day: ${room.rentalDay}</h4>
                 <h4>Discount code: ${room.codeDis}</h4>
-                <h4>Discount: <fmt:formatNumber type = "number" value = "${(100 - room.discount * 100)}" />%</h4>
+                <h4>Discount: <fmt:formatNumber type = "number" value ="${(100 - room.discount * 100)}" />%</h4>
                 <h3>Total a room: <fmt:formatNumber type="number" value="${room.total}"></fmt:formatNumber>vnđ</h3>
                 <c:set var="total" value="${total + room.total}"></c:set>
                 </div>

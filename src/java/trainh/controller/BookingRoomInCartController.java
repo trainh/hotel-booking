@@ -153,7 +153,7 @@ public class BookingRoomInCartController extends HttpServlet {
 
     private void inputHistory(Cart cart, ArrayList<Tbl_History_DTO> listRoomBooking, Tbl_Account_Information_DTO account, long rentDay, String checkOutDate, String discountCode, Tbl_DiscountCode_DTO disDTO) {
         for (Tbl_Room_DTO room : cart.getCart().values()) {
-            listRoomBooking.add(new Tbl_History_DTO(account.getEmail(), room.getHotel(), room.getRoomID(), room.getRoomNumber(), room.getKindOfRoom(), room.getPrice(), (int) rentDay, Date.valueOf(checkOutDate), discountCode, (int) disDTO.getDiscount() , (int) (disDTO.getDiscount() * room.getPrice() * (int) rentDay)));
+            listRoomBooking.add(new Tbl_History_DTO(account.getEmail(), room.getHotel(), room.getRoomID(), room.getRoomNumber(), room.getKindOfRoom(), room.getPrice(), (int) rentDay, Date.valueOf(checkOutDate), discountCode, disDTO.getDiscount() , (int) (disDTO.getDiscount() * room.getPrice() * (int) rentDay)));
         }
     }
 
