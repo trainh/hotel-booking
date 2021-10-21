@@ -22,6 +22,9 @@ not found.</li>
 <li>Login function is required for shopping.</li>
 </ul>
 </li>
+  
+![login_page](https://github.com/traitrantruon/hotel-booking/blob/main/image/login-page.png)
+  
 <li>Function 2: Display- Search – 50 LOC
 <ul>
 <li>List all hotel which has an available room in the system.</li>
@@ -32,6 +35,9 @@ amount of room.</li>
 <li>All users can use this function (login is not required).</li>
 </ul>
 </li>
+  
+![regis_page](https://github.com/traitrantruon/hotel-booking/blob/main/image/index-page.png)
+  
 <li>Function 3: Registration – 50 LOC
 <ul>
 <li>Register new user: email as ID, phone, name, address, create date</li>
@@ -42,6 +48,8 @@ amount of room.</li>
 </ul>
 </li>
 
+![regispage_page](https://github.com/traitrantruon/hotel-booking/blob/main/image/register-page.png)
+  
 <li>Function 4: Booking – 150 LOC
 <ul>
 <li>All users can use this function except admin role (login is required)</li>
@@ -56,6 +64,9 @@ message will show if the selected room is out of stock.</li>
 <li>During booking user enter the discount code (if any). Each discount code has its expiry date.</li>
 </ul>
 </li>
+  
+![booking_page](https://github.com/traitrantruon/hotel-booking/blob/main/image/booking-page.png)
+  
 <li>Function 5: Booking history – 100 LOC
 <ul>
 <li>User can take over the booking history: list of booking order by booking date.</li>
@@ -63,6 +74,9 @@ message will show if the selected room is out of stock.</li>
 <li>Support delete function to delete the booking (update the status of booking to inactive).</li>
 </ul>
 </li>
+  
+![history-page](https://github.com/traitrantruon/hotel-booking/blob/main/image/history-page.png)
+  
 <li>Function 6: Booking confirm by email – 100 LOC (extra)</li>
 <li>Function 7: Feedback on the quality of room service – 50 LOC (Extra)
 <ul>
@@ -70,3 +84,6 @@ message will show if the selected room is out of stock.</li>
 <li>Rating on a scale of: from 0 to 10.</li>
 </ul>
 </li>
+
+## My database
+![diagram](https://github.com/traitrantruon/hotel-booking/blob/main/image/diagram-database.png)
